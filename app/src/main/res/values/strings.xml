@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Login-Formulario</string>
+    <string name="action_settings">Settings</string>
+    <string name="loginForm">Login Form</string>
+    <string name="userName">UserName</string>
+    <string name="password">Password</string>
+    <string name="login">LogIn</string>
+    <string name="fullName">Full Name *</string>
+    <string name="currentAddress">Current Address *</string>
+    <string name="emailAddress">Email Address *</string>
+    <string name="phoneNumber">Phone Number *</string>
+    <string name="applayingForPosition">Applaying for Position *</string>
+    <string name="startDate">Start Date *</string>
+    <string name="uploadResume">Upload Resume</string>
+    <string name="submit">Submit *</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="streetAddress">Street Address</string>
+    <string name="streetAddress2">Street Address Line 2</string>
+    <string name="city">City</string>
+    <string name="stateProvince">State / Province</string>
+    <string name="postal_zipCode">Postal/Zip Code</string>
+    <string name="emailAddressEx">ex: name@mail.com</string>
+    <string name="areaCode">Area Code</string>
+
+    <string name="administratorRole">ADMIN_ROLE</string>
+    <string name="noramlUserRole">NORMAL_USER_ROLE</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="countries">
+        <item>Please Select</item>
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+        <item>Portugal</item>
+    </string-array>
+
+    <string-array name="positions">
+        <item>Please Select</item>
+        <item>Cloud Architect</item>
+        <item>Cloud Consultant</item>
+        <item>Cloud Product and Project Manager</item>
+        <item>Cloud Services Developer</item>
+        <item>Cloud Software and Network Engineer</item>
+        <item>Cloud System Administrator</item>
+        <item>Cloud System Engineer</item>
+        <item>Computer Network Specialists</item>
+        <item>Computer and Information Research Scientist</item>
+        <item>Computer and Information Systems Manager</item>
+        <item>Computer Network Architect</item>
+        <item>Computer Systems Analyst</item>
+        <item>Computer Systems Manager</item>
+        <item>IT Analyst</item>
+        <item>IT Coordinator</item>
+        <item>Network Administrator</item>
+        <item>Network Architect</item>
+        <item>Network and Computer Systems Administrator</item>
+        <item>Network Engineer</item>
+        <item>Network Systems Administrator</item>
+        <item>Senior Network Architect</item>
+        <item>Senior Network Engineer</item>
+        <item>Senior Network System Administrator</item>
+        <item>Telecommunications Specialist</item>
+        <item>Computer Support Specialist</item>
+        <item>Customer Support Administrator</item>
+        <item>Customer Support Specialist</item>
+        <item>Desktop Support Manager</item>
+        <item>Desktop Support Specialist</item>
+        <item>Help Desk Specialist</item>
+        <item>Help Desk Technician</item>
+        <item>IT Support Manager</item>
+        <item>IT Support Specialist</item>
+        <item>IT Systems Administrator</item>
+        <item>Senior Support Specialist</item>
+        <item>Senior System Administrator</item>
+        <item>Support Specialist</item>
+        <item>Systems Administrator</item>
+        <item>Technical Specialist</item>
+        <item>Technical Support Engineer</item>
+        <item>Technical Support Specialist</item>
+        <item>Database Administrator</item>
+        <item>Data Center Support Specialist</item>
+        <item>Data Quality Manager</item>
+        <item>Database Administrator</item>
+        <item>Senior Database Administrator</item>
+        <item>Information Technology Analysts</item>
+        <item>Application Support Analyst</item>
+        <item>Senior System Analyst</item>
+        <item>Systems Analyst</item>
+        <item>Systems Designer</item>
+        <item>Information Technology Leadership</item>
+        <item>Chief Information Officer (CIO)</item>
+        <item>Chief Technology Officer (CTO)</item>
+        <item>Director of Technology</item>
+        <item>IT Director</item>
+        <item>IT Manager</item>
+        <item>Management Information Systems Director</item>
+        <item>Technical Operations Officer</item>
+        <item>Information Security Specialist</item>
+        <item>Information Security</item>
+        <item>Security Specialist</item>
+        <item>Senior Security Specialist</item>
+        <item>Software/Application Developer</item>
+        <item>Application Developer</item>
+        <item>Applications Engineer</item>
+        <item>Associate Developer</item>
+        <item>Computer Programmer</item>
+        <item>Developer</item>
+        <item>Java Developer</item>
+        <item>Junior Software Engineer</item>
+        <item>.NET Developer</item>
+        <item>Programmer</item>
+        <item>Programmer Analyst</item>
+        <item>Senior Applications Engineer</item>
+        <item>Senior Programmer</item>
+        <item>Senior Programmer Analyst</item>
+        <item>Senior Software Engineer</item>
+        <item>Senior System Architect</item>
+        <item>Senior System Designer</item>
+        <item>Senior Systems Software Engineer</item>
+        <item>Software Architect</item>
+        <item>Software Developer</item>
+        <item>Software Engineer</item>
+        <item>Software Quality Assurance Analyst</item>
+        <item>System Architect</item>
+        <item>Systems Software Engineer</item>
+        <item>Web Developer</item>
+        <item>Front End Developer</item>
+        <item>Senior Web Administrator</item>
+        <item>Senior Web Developer</item>
+        <item>Web Administrator</item>
+        <item>Web Developer</item>
+        <item>Webmaster</item>
+    </string-array>
+</resources>

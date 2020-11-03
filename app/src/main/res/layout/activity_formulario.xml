@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormularioActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/maletin" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Job Application"
+                        android:textSize="15pt" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Please complete the form below to applyfor a position with us."
+                        android:textSize="8pt" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/fullName" />
+
+                        <EditText
+                            android:id="@+id/edtFirstName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="@string/firstName"
+                            android:inputType="text" />
+
+                        <EditText
+                            android:id="@+id/edtLastName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="@string/lastName"
+                            android:inputType="text" />
+
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/currentAddress"
+                            android:layout_weight="1"/>
+
+                        <EditText
+                            android:id="@+id/edtStreetAddress"
+                            android:layout_width="0dp"
+                            android:inputType="text"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/streetAddress"
+                            android:layout_weight="2" />
+
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"/>
+
+                        <EditText
+                            android:id="@+id/edtStreetAddress2"
+                            android:layout_width="0dp"
+                            android:inputType="text"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/streetAddress2"
+                            android:layout_weight="2"/>
+
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"/>
+
+                        <EditText
+                            android:id="@+id/edtCity"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/city"
+                            android:layout_weight="1"/>
+
+                        <EditText
+                            android:id="@+id/edtState_Province"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="text"
+                            android:hint="@string/stateProvince"
+                            android:layout_weight="1"/>
+
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"/>
+
+                        <EditText
+                            android:id="@+id/edtPostal_ZipCode"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/postal_zipCode"
+                            android:inputType="numberDecimal"
+                            android:layout_weight="1"/>
+
+                        <Spinner
+                            android:id="@+id/spCountries"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:spinnerMode="dialog"
+                            android:layout_weight="1"/>
+
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:text="@string/emailAddress"
+                            android:layout_weight="1"/>
+
+                        <EditText
+                            android:id="@+id/edtEmailAddress"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/emailAddressEx"
+                            android:inputType="textEmailAddress"
+                            android:layout_weight="2"/>
+
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/phoneNumber"
+                            android:layout_weight="1"/>
+
+                        <EditText
+                            android:id="@+id/edtAreaCode"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="numberDecimal"
+                            android:hint="@string/areaCode"
+                            android:layout_weight="1"/>
+
+                        <EditText
+                            android:id="@+id/edtPhoneNumber"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:hint="Phone Number"
+                            android:inputType="numberDecimal"
+                            android:layout_weight="1"/>
+
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/applayingForPosition"
+                            android:layout_weight="1"/>
+
+                        <Spinner
+                            android:id="@+id/spPositions"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+
+                            android:spinnerMode="dialog"
+                            android:layout_weight="2" />
+
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="Start date" />
+
+                        <TextView
+                            android:id="@+id/tvDate"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="30sp"
+                            android:hint="Select Date"/>
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:id="@+id/uploadResume"
+                            android:text="Upload Resume" />
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:id="@+id/btnupload"
+                            android:layout_height="wrap_content"
+                            android:text="Upload  a File"
+                            android:layout_margin="30dp"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/black"/>
+
+                    </TableRow>
+
+                    <TableRow android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/submit"
+                            android:text="@string/submit" />
+
+                        <ImageView
+                            android:id="@+id/iv_submit"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:src="@drawable/submit"
+                            android:layout_height="wrap_content"
+                            android:text="Submit" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
